@@ -1,6 +1,6 @@
 # Amazon-Stock-Price-Forecasting-using-ARIMA-SARIMA-GARCH-and-LSTM
 
-📘 ## Project Overview
+📘 **Project Overview**
 
 This project aims to forecast Amazon’s stock price movement using multiple time-series forecasting models
 to compare their predictive performance and ability to capture both trend and volatility in financial data.
@@ -8,7 +8,7 @@ to compare their predictive performance and ability to capture both trend and vo
 The analysis covers data from 1997 to 2020, exploring both statistical and deep learning approaches to understand short- and long-term market behavior.
 
 ---
-🗂️ ## Dataset
+🗂️ **Dataset**
 
 Source: [https://www.kaggle.com/datasets/salmanfaroz/amazon-stock-price-1997-to-2020](https://www.kaggle.com/datasets/salmanfaroz/amazon-stock-price-1997-to-2020)
 
@@ -22,7 +22,7 @@ Target Variable: `Close` — closing stock price of Amazon
 
 ---
 
-⚙️ ## Methodology
+⚙️ **Methodology**
 
 1. Data Preparation
   - Imported daily Amazon stock prices.
@@ -47,7 +47,7 @@ Target Variable: `Close` — closing stock price of Amazon
 
 ---
 
-📊 ## Results Summary
+📊 **Results Summary**
 
 | **Model** | **Key Strength** | **Limitation** | **Performance** |
 |:-----------|:-----------------|:---------------|:----------------|
@@ -70,7 +70,7 @@ LSTM effectively captured both **long-term upward trends** and **short-term fluc
 
 ---
 
-📈 ## Key Insights
+📈 **Key Insights**
 
 - ARIMA/SARIMA: Poor in reacting to short-term shocks; produce smoothed, linear forecasts.
 
@@ -79,14 +79,15 @@ LSTM effectively captured both **long-term upward trends** and **short-term fluc
 - LSTM: Best at capturing nonlinear trends and complex time dependencies, achieving the lowest error metrics.
 
 ---
-💡 ## Conclusion
+
+💡 **Conclusion**
 
 The experiment shows that deep learning models like LSTM outperform traditional time-series methods for forecasting stock prices, particularly in volatile and nonlinear financial markets.
 Future extensions could include hybrid ARIMA–LSTM models or incorporating macroeconomic indicators to improve predictive power.
 
 ---
 
-🧩 ## Technologies Used
+🧩 **Technologies Used**
 
 Python (Pandas, NumPy, Matplotlib, Seaborn,itertools,datetime,os)
 
