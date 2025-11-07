@@ -11,9 +11,13 @@ The analysis covers data from 1997 to 2020, exploring both statistical and deep 
 🗂️ Dataset
 
 Source: [https://www.kaggle.com/datasets/salmanfaroz/amazon-stock-price-1997-to-2020](https://www.kaggle.com/datasets/salmanfaroz/amazon-stock-price-1997-to-2020)
+
 Period: 15/05/1997- 31/07/2020
+
 Size: 5842 daily observations × 6 columns
+
 Frequency: Daily
+
 Target Variable: `Close` — closing stock price of Amazon
 
 ---
