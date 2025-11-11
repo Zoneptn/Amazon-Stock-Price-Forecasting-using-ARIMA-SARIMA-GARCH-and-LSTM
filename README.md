@@ -1,4 +1,4 @@
-# Amazon-Stock-Price-Forecasting-using-ARIMA-SARIMA-GARCH-and-LSTM
+# Amazon Stock Price Forecasting using ARIMA,SARIMA,GARCH-and-LSTM
 
 📘 **Project Overview**
 
